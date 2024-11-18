@@ -2,10 +2,11 @@
     <h1>WebView 电视</h1>
 <div align="center">
 
+![GitHub Repo stars](https://img.shields.io/github/stars/hxh19950701/WebViewTvLive)
 ![GitHub top language](https://img.shields.io/github/languages/top/hxh19950701/WebViewTvLive)
 ![GitHub repo size](https://img.shields.io/github/repo-size/hxh19950701/WebViewTvLive)
-![GitHub Repo stars](https://img.shields.io/github/stars/hxh19950701/WebViewTvLive)
-![GitHub all releases](https://img.shields.io/github/downloads/hxh19950701/WebViewTvLive/total)
+![GitHub Release](https://img.shields.io/github/v/release/hxh19950701/WebViewTvLive)
+
 
 </div>
     <p>使用 腾讯X5 WebView 开发的电视直播App</p>
@@ -54,15 +55,14 @@ https://github.com/hxh19950701/WebViewTvLive/releases <br>
 
 ## FAQ
 
-**Q: 在电视机/盒子上无法自动全屏？**
+**Q: 在电视机/盒子上无法自动全屏？**<br/>
+A: 一般是设备 WebView 的问题，待X5内核下载完成，重启 App 即可。若无法自动下载X5内核，请在设置-TBS调试界面内选择“安装线上内核”来手动安装。<br/>
 <br/>
-A: 一般是设备 WebView 的问题，待X5内核下载完成，重启 App 即可。若无法自动下载X5内核，请在设置-TBS调试界面内手动安装。
+**Q: 在TBS调试界面“安装线上内核”老是失败？**<br/>
+A: 可能刚好遇到了官方X5内核下载限流时间段，请换个时间段重试。参见[《关于官网X5内核SDK加载不稳定问题说明》](https://doc.weixin.qq.com/doc/w3_AGoAtwbdAFwlo0hmqkbTl6p19tCOV)。<br/>
 <br/>
-<br/>
-**Q: 我打开怎么只有CCTV-1？**
-<br/>
-~~A: 频道列表托管在Github，出现此问题请检查您与Github之间的连接。~~
-<br/>
+**Q: 我打开怎么只有CCTV-1？**<br/>
+~~A: 频道列表托管在Github，出现此问题请检查您与Github之间的连接。~~<br/>
 最新的版本应该不会出现这样的问题了。
 
 ## 注意
